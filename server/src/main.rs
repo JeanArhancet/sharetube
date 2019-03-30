@@ -10,3 +10,4 @@ fn index() -> &'static str {
 fn main() {
     rocket::ignite().mount("/", routes![index]).launch();
 }
+
